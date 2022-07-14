@@ -1,0 +1,213 @@
+/*Medias*/
+
+@media screen and (max-width: 1422px){
+    /*servicio*/
+    #servicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 25px;
+        }
+    
+}
+
+@media screen and (max-width: 1055px){
+    /*nav*/
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+   
+    /*box*/
+    .box__gallery{
+        display: grid;
+        grid-template-columns: repeat(12 , 1fr );
+        grid-template-rows: repeat(3 , 1fr );
+        gap: 1rem;
+    }
+    
+    /*footer*/
+    .container__footer .box__footer{
+        &box__footer{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+       
+}
+
+@media screen and (max-width: 867px){
+        /*index*/
+        .Sub{
+            font-size: 25px;
+        }
+        .title__logo{
+            max-width: 100%;
+        }
+    
+
+}
+
+@media screen and (max-width: 755px){
+   .title__index {
+        padding-bottom: 15%;
+        max-width: 100%;
+    }
+
+    /*box*/
+    #box{
+    .box__gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    max-width: 70%;
+    }
+    .gallery__img1{
+        padding: 10 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid 3px $alternative;
+            transition: height 1s, width 1s;
+        }
+        .gallery__img1:hover{
+            height: 500px;
+        }
+    
+        .gallery__img2{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid 3px $alternative;
+            transition: height 1s, width 1s;
+        }
+        .gallery__img2:hover{
+            width: 350px;
+        }
+        .gallery__img3{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  
+            border: solid 3px $alternative;
+            transition: height 1s, width 1s;
+        }
+        .gallery__img3:hover{
+            width: 300px;
+        }
+        .gallery__img4{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid 3px $alternative;  
+            transition: height 1s, width 1s;
+        }
+        .gallery__img4:hover{
+            height: 300px;
+        }
+        .gallery__img5{
+            padding: 10 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: solid 3px $alternative;
+            transition: height 1s, width 1s;
+        }
+        .gallery__img5:hover{
+            width: 200px;
+        }
+        .gallery__img6{
+            padding: 10 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: height 1s, width 1s;
+        }
+        .gallery__img6:hover{
+            width: 200px;
+        }  
+    }
+}
+
+@media screen and (max-width: 500px){
+    .title__index{
+         font-size: 20px;
+         padding-bottom: 20%;
+     }
+
+ }
+
+ @media screen and (max-width: 450px){
+    /*nav*/
+    #nav{
+        .nav__logo{
+            margin-bottom: 2%;
+            height: 70px;
+        }
+    
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    /*inicio*/
+    #section{
+        .title__sub{
+            font-size: 35px;
+        }
+        .title__index{
+         padding-bottom: 55%;
+        }
+        .div__rookie, .div__buildup, .div__pro {
+        margin-bottom: 0.5em;
+        padding: 0.5em;
+        }
+    }
+
+    /*Nosotros*/
+    .clearfix{
+        margin: auto;
+    
+        .h1{
+            width: 250px;
+            margin: 0px;
+        }
+        .p{
+                text-align: center;
+                margin-left: 10px;
+            }
+    }
+
+    /*Servicio*/  
+    #Servicio, .div__rook, .div__build, .div__pro1  {
+            font-size: 12px;
+    }
+
+    /*contacto*/
+    #contact{
+        padding-left: 5px;
+        padding-right: 5px;
+        .contact_form{
+            width: 300px;
+        }
+        label{
+            width: 200px;
+        }
+        input{
+            width: 200px;
+        }
+        textarea{
+            width: 180px;
+        }
+        button{
+            width: 80px;
+        }
+    }
+       
+    
+    
+    
+}

@@ -1,0 +1,32 @@
+#nosotros{
+    background:  url(../Img/fondobox.jpg);
+    background-size: auto;
+    max-width: 100%;
+    padding: 5px;
+    opacity: 90%;
+
+
+    iframe{
+    max-width: 90%;
+    margin: 3%;
+    padding-left: 5%;
+    }
+
+    .clearfix h1{
+    width: 250px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: $base;
+    border-style: groove;
+    border-block-width: 5px;
+    opacity: 65%;
+    margin-left: 5%;
+    }
+
+    .clearfix p{
+    margin-left: 2%;
+    color: $base;
+    font-weight: 800;
+    }
+}

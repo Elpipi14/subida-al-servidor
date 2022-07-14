@@ -1,0 +1,110 @@
+#box{
+    margin: 0;
+    max-width: auto;
+    background: url(../Img/fondobox.jpg);
+    background-size: cover;    
+
+
+    .box__gallery{
+        margin: 0 auto;
+        padding-top: 25px;
+        padding-bottom: 25px; 
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(12 , 2fr);
+        grid-template-rows: repeat(3 , 300px);
+        gap: 3rem;  
+        opacity: 88%;
+    }
+
+  
+
+    .gallery__img1{
+    padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 2 / 5;
+        grid-row: 1 / 3;  
+        border: solid 3px $alternative;
+        transition: height 1s, width 1s;
+    }
+
+    .gallery__img1:hover{
+        height: 500px;
+    }
+
+    .gallery__img2{
+    padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 6 / 12;   
+        grid-row: 3;
+        border: solid 3px $alternative;
+        transition: height 1s, width 1s;
+    }
+    
+    .gallery__img2:hover{
+        width: 550px;
+    }
+
+
+    .gallery__img3{
+    padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 5 / 12;  
+        border: solid 3px $alternative;
+        transition: height 1s, width 1s;
+    }
+
+    .gallery__img3:hover{
+        width: 400px;
+    }
+
+    .gallery__img4{
+    padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 5 / 9;
+        grid-row: 2;
+        border: solid 3px $alternative;  
+        transition: height 1s, width 1s;
+    }
+
+    .gallery__img4:hover{
+        height: 200px;
+    }
+
+    .gallery__img5{
+        padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 9 / 12;
+        grid-row: 2;
+        
+        transition: height 1s, width 1s;
+    }
+
+    .gallery__img5:hover{
+        width: 200px;
+    }
+
+    .gallery__img6{
+        padding: 10 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        grid-column: 2 / 6;
+        grid-row: 3 / 4;
+        border: solid 3px $alternative;
+        transition: height 1s, width 1s;
+    }
+    .gallery__img6:hover{
+        width: 200px;
+    }
+}
